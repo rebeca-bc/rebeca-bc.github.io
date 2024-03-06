@@ -22,17 +22,17 @@ section {
 h1 {
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive;
-  color: #8B786D;
+  color: #22285e;
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #321b2b;
+  color: #fafafa;
+  background-color: #22285e;
 }
 
 .seccion-clara {
-  color: black;
-  background-color: white;
+  color: #b069a4;
+  background-color: #fafafa;
 }
 
 .seccion-titulo {
@@ -54,22 +54,22 @@ h1 {
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
-  background-color: #D8A7D4;
+  background-color: #fafafa;
   border: none;
 }
 
 .texto-negro {
-  color: #321b2b;
+  color: #22285e;
 }
 
 .texto-blanco {
-  color: white;
+  color: #fafafa;
 }
 
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #fafafa;
   min-height: 450px;
   text-align: center;
 }
@@ -86,7 +86,7 @@ h1 {
 
 .hero-principal h2 {
   font-size: 1.5rem;
-  color:#D8A7D4;
+  color:#b069a4;
 }
 
 /* Sobre mi */
@@ -109,7 +109,7 @@ h1 {
 
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #321b2b;
+  border: 2px solid #22285e;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,14 +118,14 @@ h1 {
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #321b2b;
+  color: #fafafa;
+  background-color: #b069a4;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: white;
-  background-color: #321b2b;
+  color: #fafafa;
+  background-color: #22285e;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -272,7 +272,7 @@ h1 {
 
 .testimonio-info .cargo {
   font-size: 0.9rem;
-  color: #8a617a;
+  color: #b069a4;
 }
 
 /* Contacto */
@@ -285,9 +285,9 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #8B786D;
+  background-color: #afb3c3;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white;
+  box-shadow: 0px 1px 4px 1px #b069a4;
 }
 
 .contacto .row {
@@ -302,7 +302,7 @@ h1 {
 }
 
 .contacto button {
-  color: white;
+  color: #b069a4;
   font-weight: bold;
   background-color: transparent;
   border: 2px solid white;
@@ -313,18 +313,18 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
+  background-color:#afb3c3;
   color: black;
 }
 
 .contacto button i {
-  color: white;
+  color: #22285e;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out;
 }
 
 .contacto button:hover i {
-  color: black;
+  color: #22285e;
 }
 
 /* Pie de pagina (footer) */
